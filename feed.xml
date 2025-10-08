@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <title>Prueba de web01</title>
+    <link href="https://Angel3021.github.io/2asirAFH2526/feed.xml" rel="self" />
+    <link href="https://Angel3021.github.io/2asirAFH2526" />
+    <updated>2025-10-08T20:20:42+02:00</updated>
+    <author>
+        <name>lol</name>
+    </author>
+    <id>https://Angel3021.github.io/2asirAFH2526</id>
+
+    <entry>
+        <title>Título de mi primer artículo</title>
+        <author>
+            <name>lol</name>
+        </author>
+        <link href="https://Angel3021.github.io/2asirAFH2526/titulo-de-mi-primer-articulo.html"/>
+        <id>https://Angel3021.github.io/2asirAFH2526/titulo-de-mi-primer-articulo.html</id>
+
+        <updated>2025-10-08T20:20:42+02:00</updated>
+            <summary>
+                <![CDATA[
+                    Este es mi primer artículo. 💯
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>Este es mi <strong>primer</strong> artículo.</p>
+<p>💯</p>
+            ]]>
+        </content>
+    </entry>
+</feed>
