@@ -1,25 +1,78 @@
-<!-- index.html -->
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Mi Portafolio</title>
-  <link rel="stylesheet" href="styles.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio | Desarrollador Web</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <h1>Tu Nombre</h1>
-    <p>Desarrollador Web | Diseñador | Creativo</p>
-  </header>
-  <section id="proyectos">
-    <h2>Proyectos</h2>
-    <div class="proyecto">Proyecto 1</div>
-    <div class="proyecto">Proyecto 2</div>
-  </section>
-  <footer>
-    <p>Contacto: tunombre@email.com</p>
-  </footer>
-  <script src="script.js"></script>
+    <header class="navbar">
+        <div class="logo">Tech Portfolio</div>
+        <nav>
+            <a href="#inicio">Inicio</a>
+            <a href="#proyectos">Proyectos</a>
+            <a href="#skills">Tecnologías</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+    </header>
+
+    <section id="inicio" class="hero">
+        <h1>Hola, soy <span class="accent">Alex García</span></h1>
+        <p>Desarrollador full-stack especializado en soluciones tecnológicas escalables e interfaces eficientes.</p>
+        <button id="generarFrase">Inspirar con IA</button>
+        <p id="fraseIA"></p>
+    </section>
+
+    <section id="skills">
+        <h2>Tecnologías</h2>
+        <div class="skills-grid">
+            <div>HTML5</div>
+            <div>CSS3</div>
+            <div>JavaScript / TypeScript</div>
+            <div>React / Next.js</div>
+            <div>Node.js / Express</div>
+            <div>Python / Django</div>
+            <div>MySQL / MongoDB</div>
+            <div>Git / GitHub</div>
+        </div>
+    </section>
+
+    <section id="proyectos">
+        <h2>Proyectos recientes</h2>
+        <div class="grid">
+            <div class="card">
+                <img src="https://picsum.photos/500/300" alt="Proyecto 1">
+                <h3>Panel de Monitoreo IoT</h3>
+                <p>App web que conecta sensores y muestra datos en tiempo real usando Node.js y React.</p>
+            </div>
+            <div class="card">
+                <img src="https://picsum.photos/501/300" alt="Proyecto 2">
+                <h3>Asistente IA Educativa</h3>
+                <p>Interfaz de chatbot con GPT para apoyo académico y gestión de aprendizaje.</p>
+            </div>
+            <div class="card">
+                <img src="https://picsum.photos/502/300" alt="Proyecto 3">
+                <h3>Dashboard CloudDev</h3>
+                <p>Portal de control y métricas de despliegue CI/CD con visualización dinámica.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <form>
+            <input type="text" placeholder="Tu nombre" required>
+            <input type="email" placeholder="Correo electrónico" required>
+            <textarea placeholder="Tu mensaje" rows="4" required></textarea>
+            <button type="submit">Enviar mensaje</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>© 2025 Alex García. Desarrollado con pasión por la tecnología.</p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
